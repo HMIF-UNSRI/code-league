@@ -1,5 +1,7 @@
 ## April Edition
 
+Link soal : https://www.hackerrank.com/code-league-1-1
+
 ### 1. Kaguya Sama
 
 Ide dari permasalahan ini adalah penghapusan kata `KAGUYASAMA`. Misal terdapat kalimat `KAGUYASAMKAGUYASAMAA`. Maka
