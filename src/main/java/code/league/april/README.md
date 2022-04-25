@@ -21,3 +21,29 @@ Cara menjawab soal ini dapat bervariasi, bisa menggunakan looping dimana setiap 
 Jika menggunakan loop, perlu dipahami kembali mengenai detik apabila terdapat koma, karena pada looping hanya memeriksa presisi setiap 1 detik.
 
 Lihat jawaban disini : [Kelinci Inori](KelinciInori.java)
+
+### 4. Anya Forger
+
+Cara menjawab soal ini mempunyai sangat banyak cara dan untuk lebih jelasnya bisa dibuat sebuah tabel seperti ini
+
+| 1,1 | 1,2 | 1,3 | 1,4 | 1,5 | 1,6 |
+|-----|-----|-----|-----|-----|-----|
+| 2,1 | 2,2 | 2,3 | 2,4 | 2,5 | 2,6 |
+| 3,1 | 3,2 | 3,3 | 3,4 | 3,5 | 3,6 |
+| 4,1 | 4,2 | 4,3 | 4,4 | 4,5 | 4,6 |
+| 5,1 | 5,2 | 5,3 | 5,4 | 5,5 | 5,6 |
+| 6,1 | 6,2 | 6,3 | 6,4 | 6,5 | 6,6 |
+
+Sehingga kita dapat melihat sebuah pola disini
+
+| 2 | 3 | 4 | 5  | 6  | 7  |
+|---|---|---|----|----|----|
+| 3 | 4 | 5 | 6  | 7  | 8  |
+| 4 | 5 | 6 | 7  | 8  | 9  |
+| 5 | 6 | 7 | 8  | 9  | 10 |
+| 6 | 7 | 8 | 9  | 10 | 11 |
+| 7 | 8 | 9 | 10 | 11 | 12 |
+
+Sehingga kita dapat menggunakan perulangan dengan pola tersebut dan memodifikasi hasilnya menggunakan perkondisian.
+
+Lihat jawaban disini : [Anya Forger](AnyaForger.java)
