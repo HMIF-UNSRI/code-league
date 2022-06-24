@@ -1,23 +1,11 @@
 package code.league.juni;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 public class TentukanTeamLomba {
 
-    /*
-     * Complete the 'tentukanTeamLomba' function below.
-     *
-     * The function is expected to return a STRING.
-     */
-
     public static String tentukanTeamLomba(int kelasA, int kelasB, int kelasC) {
-        // Write your code here
+        
         if (kelasA >= 3 && kelasA <= 12) {
             if (kelasB >= 3 && kelasB <= 12) {
                 if (kelasC >= 3 && kelasC <= 12) {
@@ -49,25 +37,4 @@ public class TentukanTeamLomba {
         return faktorial(n) / (faktorial(r) * faktorial(n - r));
     }
 
-}
-
-class Solution {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
-        int a = Integer.parseInt(bufferedReader.readLine().trim());
-
-        int b = Integer.parseInt(bufferedReader.readLine().trim());
-
-        int c = Integer.parseInt(bufferedReader.readLine().trim());
-
-        String result = TentukanTeamLomba.tentukanTeamLomba(a, b, c);
-
-        bufferedWriter.write(result);
-        bufferedWriter.newLine();
-
-        bufferedReader.close();
-        bufferedWriter.close();
-    }
 }
