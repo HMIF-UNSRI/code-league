@@ -12,7 +12,7 @@ Filter ini mendeteksi angka yang mustahil dicapai oleh suatu tim yaitu angka 7, 
 
 **Filter 12**
 
-Filter ini mencegah angka 12 tidak muncul lebih dari 1 kali, karena mustahil ada 2 tim yang mendapatkan 12 point.
+Filter ini memastikan angka 12 tidak muncul lebih dari 1 kali, karena mustahil ada 2 tim yang mendapatkan 12 point.
 
 **Filter pertandingan**
 
