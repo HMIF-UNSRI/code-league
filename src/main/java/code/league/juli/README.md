@@ -71,11 +71,11 @@ Kemungkinan 5 Lompatan pertama
 - Node 4 : -2 + (Return dari Lompatan Kedua, Ketiga, ...)
 
 Kemungkinan 5 Lompatan Kedua dari Node 0
-- Node 0 : Poin dari Node 0 + -5 + (Return dari Lompatan Kedua, Ketiga, ...)
-- Node 1 : Poin dari Node 0 + -5 + (Return dari Lompatan Kedua, Ketiga, ...)
-- Node 2 : Poin dari Node 0 + -5 + (Return dari Lompatan Kedua, Ketiga, ...)
-- Node 3 : Poin dari Node 0 + -2 + (Return dari Lompatan Kedua, Ketiga, ...)
-- Node 4 : Poin dari Node 0 + -3 + (Return dari Lompatan Kedua, Ketiga, ...)
+- Node 0 : Poin dari Node 0 + -5 + (Return dari Lompatan Ketiga, ...)
+- Node 1 : Poin dari Node 0 + -5 + (Return dari Lompatan Ketiga, ...)
+- Node 2 : Poin dari Node 0 + -5 + (Return dari Lompatan Ketiga, ...)
+- Node 3 : Poin dari Node 0 + -2 + (Return dari Lompatan Ketiga, ...)
+- Node 4 : Poin dari Node 0 + -3 + (Return dari Lompatan Ketiga, ...)
 
 Kemudian program akan terus lanjut sampai hingga akhirnya return dari tiap node akan dibandingkan manakah node yang mempunyai return value terbesar. 
 
