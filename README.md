@@ -4,6 +4,7 @@ Repositori menampung soal, jawaban, testcase, dan pembahasan dari HMIF Code Leag
 
 - [April Edition](src/main/java/code/league/april)
 - [June Edition](src/main/java/code/league/juni)
+- [July Edition](src/main/java/code/league/juli)
 
 Menjalankan unit test :
 
